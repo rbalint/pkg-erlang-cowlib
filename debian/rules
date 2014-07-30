@@ -19,6 +19,10 @@ override_dh_auto_install:
 		$(CURDIR)/debian/erlang-$(PACKAGE)/usr/lib/erlang/lib/$(PACKAGE)-$(VERSION)/ebin
 	install -m 644 ebin/* \
 		$(CURDIR)/debian/erlang-$(PACKAGE)/usr/lib/erlang/lib/$(PACKAGE)-$(VERSION)/ebin/
+	install -d \
+		$(CURDIR)/debian/erlang-$(PACKAGE)/usr/lib/erlang/lib/$(PACKAGE)-$(VERSION)/include
+	install -m 644 include/*.hrl \
+		$(CURDIR)/debian/erlang-$(PACKAGE)/usr/lib/erlang/lib/$(PACKAGE)-$(VERSION)/include/
 
 override_dh_gencontrol-arch:
 	erlang-depends -a -perlang-cowlib
