@@ -1,0 +1,5 @@
+erlang-cowlib (0.6.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #756496)
+
+ -- Balint Reczey <balint@balintreczey.hu>  Wed, 30 Jul 2014 12:13:03 +0200
