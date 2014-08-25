@@ -1,3 +1,9 @@
+erlang-cowlib (0.6.2-3) UNRELEASED; urgency=medium
+
+  *
+
+ -- Balint Reczey <balint@balintreczey.hu>  Mon, 25 Aug 2014 09:36:54 +0200
+
 erlang-cowlib (0.6.2-2) unstable; urgency=medium
 
   * Ship Erlang header files
