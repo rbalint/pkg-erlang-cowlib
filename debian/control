@@ -1,7 +1,8 @@
 Source: erlang-cowlib
+Maintainer: LeoFS maintainers team <pkg-leofs-devel@lists.alioth.debian.org>
+Uploaders: Balint Reczey <balint@balintreczey.hu>
 Section: devel
 Priority: optional
-Maintainer: Balint Reczey <balint@balintreczey.hu>
 Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~),
 	erlang-dev (>= 1:14.b.4),
@@ -9,10 +10,8 @@ Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~),
 	erlang-edoc (>= 1:14.b.4),
 	markdown
 Homepage: https://github.com/extend/cowlib
-# Vcs-Git: git://anonscm.debian.org/pkg-leofs/erlang-cowlib.git
-# Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-leofs/erlang-cowlib.git;a=summary
-Vcs-Git: https://github.com/rbalint/pkg-erlang-cowlib.git
-Vcs-Browser: https://github.com/rbalint/pkg-erlang-cowlib
+Vcs-Git: git://anonscm.debian.org/pkg-leofs/erlang-cowlib.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-leofs/erlang-cowlib.git;a=summary
 
 Package: erlang-cowlib
 Architecture: any
